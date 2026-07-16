@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "title": "Special-population movement-safety guidance",
+    "disclaimer": "Educational reference based on widely accepted Pilates and rehabilitation movement-safety principles. Not medical advice. Clients with these conditions should have physician / physiotherapist clearance; the instructor's professional judgment governs all programming.",
+    "movement_labels": {
+      "spinal_flexion": "spinal flexion",
+      "spinal_extension": "spinal extension",
+      "rotation": "rotation",
+      "lateral_flexion": "lateral flexion",
+      "spinal_articulation": "spinal articulation",
+      "inversion": "inversion (hips above heart)",
+      "balance_fall_risk": "balance / fall risk",
+      "high_impact": "high impact",
+      "overhead_shoulder": "overhead shoulder load",
+      "high_intra_abdominal_pressure": "high intra-abdominal pressure",
+      "neutral_stability": "neutral stability"
+    },
+    "classification": "For each exercise: AVOID if it uses any avoid-movement or avoid-position; CAUTION if it uses a caution-movement/position; otherwise SAFE."
+  },
+  "conditions": [
+    {
+      "id": "osteoporosis",
+      "name_en": "Osteoporosis / Osteopenia",
+      "name_zh": "骨质疏松",
+      "region": "Bone",
+      "reference": "General movement-safety principles for this condition. Educational only — not medical advice.",
+      "avoid_movements": [
+        "spinal_flexion",
+        "rotation",
+        "lateral_flexion",
+        "spinal_articulation",
+        "inversion"
+      ],
+      "caution_movements": [
+        "balance_fall_risk",
+        "high_impact"
+      ],
+      "avoid_positions": [],
+      "caution_positions": [],
+      "avoid": [
+        "Loaded spinal flexion, rotation, and side bending (vertebral compression-fracture risk)",
+        "End-range or forced hip rotation",
+        "Impact and jumping",
+        "Positions that compress the spine",
+        "Anything with a real fall risk"
+      ],
+      "utilize": [
+        "Extension-focused work; keep the spine long",
+        "Neutral spine, small controlled rotation only",
+        "Props and hands-on support for stability",
+        "Low/no-impact, weight-bearing movement to load bone"
+      ],
+      "programming": "Favour weight-bearing and balance work to protect bone and prevent falls. Where a classical exercise would flex the spine, keep the head/chest down or work flat-back instead. Build in longer warm-ups and lighter resistance."
+    },
+    {
+      "id": "disc-herniation",
+      "name_en": "Disc Herniation (posterolateral / lumbar)",
+      "name_zh": "椎间盘突出",
+      "region": "Spine",
+      "reference": "General movement-safety principles for this condition. Educational only — not medical advice.",
+      "avoid_movements": [
+        "spinal_flexion",
+        "spinal_articulation"
+      ],
+      "caution_movements": [
+        "rotation",
+        "inversion"
+      ],
+      "avoid_positions": [],
+      "caution_positions": [
+        "seated"
+      ],
+      "avoid": [
+        "Flexion-biased loading",
+        "Long periods of sitting",
+        "Posterior pelvic tilt / imprinting",
+        "Combined flexion + rotation"
+      ],
+      "utilize": [
+        "Extension-based work",
+        "Neutral pelvis with legs supported, or reduced range",
+        "Prop the pelvis up in sitting",
+        "Stay strictly in a pain-free range"
+      ],
+      "programming": "Neutral is the home base. Prioritise deep-core and gluteal stability plus thoracic extension; reintroduce flexion only in small, pain-free amounts. Avoid working to fatigue."
+    },
+    {
+      "id": "spinal-stenosis",
+      "name_en": "Spinal Stenosis",
+      "name_zh": "椎管狭窄",
+      "region": "Spine",
+      "reference": "General movement-safety principles for this condition. Educational only — not medical advice.",
+      "avoid_movements": [
+        "spinal_extension"
+      ],
+      "caution_movements": [
+        "rotation"
+      ],
+      "avoid_positions": [
+        "prone"
+      ],
+      "caution_positions": [
+        "standing"
+      ],
+      "avoid": [
+        "Excessive extension (prone work, prolonged standing)",
+        "Rotation that may compress the facet joints",
+        "Any movement that provokes numbness, tingling, or pain"
+      ],
+      "utilize": [
+        "Flexion-friendly work that opens the spinal canal",
+        "Seated, quadruped, and side-lying options",
+        "Working in imprint",
+        "Support under the pelvis in any prone work"
+      ],
+      "programming": "These clients usually feel better in flexion and worse in extension. Emphasise gluteal strength and pain-free range; eliminate provoking rotation."
+    },
+    {
+      "id": "spondylolisthesis",
+      "name_en": "Spondylolisthesis / Spondylolysis",
+      "name_zh": "脊椎滑脱",
+      "region": "Spine",
+      "reference": "General movement-safety principles for this condition. Educational only — not medical advice.",
+      "avoid_movements": [
+        "spinal_extension"
+      ],
+      "caution_movements": [],
+      "avoid_positions": [
+        "prone"
+      ],
+      "caution_positions": [
+        "standing"
+      ],
+      "avoid": [
+        "Lumbar extension and hyperextension",
+        "Anterior pelvic tilt",
+        "Prolonged standing",
+        "Aggressive hip-extension that arches the low back"
+      ],
+      "utilize": [
+        "Flexion-based work in imprint, progressing toward neutral",
+        "Pain-free positions only",
+        "Side-lying glute work; pelvic support in prone"
+      ],
+      "programming": "Focus on core and spinal stability in imprint→neutral, stretch hip flexors/hamstrings, strengthen glutes."
+    },
+    {
+      "id": "scoliosis",
+      "name_en": "Scoliosis",
+      "name_zh": "脊柱侧弯",
+      "region": "Spine",
+      "reference": "General movement-safety principles for this condition. Educational only — not medical advice.",
+      "avoid_movements": [],
+      "caution_movements": [
+        "rotation",
+        "lateral_flexion"
+      ],
+      "avoid_positions": [],
+      "caution_positions": [],
+      "avoid": [
+        "No fixed contraindications — follow the rules of any co-existing condition",
+        "Any range/resistance that exaggerates the existing curve or rotation"
+      ],
+      "utilize": [
+        "Neutral spine and active length (elongation)",
+        "Single-side work with controlled range",
+        "Props/wedges to support symmetry",
+        "Consistent breath work"
+      ],
+      "programming": "Aim to lengthen and balance left/right without reinforcing the curve; side bending and rotation will be freer in one direction than the other. Strengthen hips, glutes, and deep stabilisers."
+    },
+    {
+      "id": "rotator-cuff",
+      "name_en": "Rotator Cuff Injury / Impingement",
+      "name_zh": "肩袖损伤",
+      "region": "Shoulder",
+      "reference": "General movement-safety principles for this condition. Educational only — not medical advice.",
+      "avoid_movements": [
+        "overhead_shoulder"
+      ],
+      "caution_movements": [],
+      "avoid_positions": [],
+      "caution_positions": [
+        "side_lying"
+      ],
+      "avoid": [
+        "Overhead loading",
+        "Reaching behind the back",
+        "Lying on the affected shoulder",
+        "Loaded horizontal adduction at 90° external rotation"
+      ],
+      "utilize": [
+        "Keep shoulder elevation low / pain-free",
+        "Neutral or externally-rotated positions",
+        "Closed-chain shoulder stability (quadruped, wall or modified plank)",
+        "Light resistance, clean mechanics"
+      ],
+      "programming": "Strengthen the rotator cuff and scapular stabilisers, restore good scapulo-humeral rhythm, and work in the scapular plane with the thumb up."
+    },
+    {
+      "id": "pregnancy",
+      "name_en": "Pregnancy (2nd/3rd trimester) & Post-Natal",
+      "name_zh": "孕期及产后",
+      "region": "Other",
+      "reference": "General movement-safety principles for this condition. Educational only — not medical advice.",
+      "avoid_movements": [
+        "inversion",
+        "high_impact"
+      ],
+      "caution_movements": [
+        "spinal_flexion",
+        "rotation",
+        "high_intra_abdominal_pressure",
+        "balance_fall_risk"
+      ],
+      "avoid_positions": [
+        "supine",
+        "prone",
+        "inverted"
+      ],
+      "caution_positions": [
+        "standing"
+      ],
+      "avoid": [
+        "Lying flat on the back after the first trimester",
+        "Lying on the belly as pregnancy progresses",
+        "Inversions and impact",
+        "Stretching to end range (ligament laxity)",
+        "Strong hip-adductor gripping"
+      ],
+      "utilize": [
+        "Deep-core and pelvic stability in neutral",
+        "Side-lying, seated, quadruped, supported standing",
+        "Slow position changes (dizziness risk)",
+        "Cooler room, more rest"
+      ],
+      "programming": "Requires medical clearance; stop immediately on any warning sign (pain, dizziness, bleeding, contractions, calf pain, reduced fetal movement). Focus on deep core, pelvic floor, posture, and safe balance."
+    },
+    {
+      "id": "stress-incontinence",
+      "name_en": "Stress Incontinence / Pelvic Floor",
+      "name_zh": "压力性尿失禁",
+      "region": "Other",
+      "reference": "General movement-safety principles for this condition. Educational only — not medical advice.",
+      "avoid_movements": [
+        "high_impact"
+      ],
+      "caution_movements": [
+        "high_intra_abdominal_pressure"
+      ],
+      "avoid_positions": [],
+      "caution_positions": [],
+      "avoid": [
+        "Impact / jumping (spikes intra-abdominal pressure)",
+        "Overloading the global abdominals in a way that pushes down on the pelvic floor"
+      ],
+      "utilize": [
+        "Coordinate a pelvic-floor lift with deep-abdominal work",
+        "Engage the floor before effort ('lift before you load')",
+        "Train the deep sling: pelvic floor + deep abdominals + multifidii"
+      ],
+      "programming": "Build pelvic-floor awareness and pair it with breath and deep-core work throughout; avoid global-ab overload and impact."
+    }
+  ]
+}
